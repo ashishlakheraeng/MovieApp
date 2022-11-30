@@ -23,7 +23,10 @@ namespace MovieApp.Controllers
         {
             return View();
         }
-
+        public IActionResult Thankyou()
+        {
+            return View();
+        }
         public IActionResult Privacy()
         {
             return View();

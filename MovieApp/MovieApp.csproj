@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Views\Home\thankyou.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Shared\Thankyou.cshtml" />
+  </ItemGroup>
+
 </Project>
